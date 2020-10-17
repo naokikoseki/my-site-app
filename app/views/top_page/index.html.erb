@@ -5,9 +5,9 @@
   </div>
   <div class="top-header-lists">
    <ul class="lists">
-    <li class="header-btn">ホーム</li>
-    <li class="header-btn">経歴</li>
-    <li class="header-btn">制作物</li>
+    <li><%= link_to 'ホーム', top_page_index_path, class:"header-btn" %></li>
+    <li><%= link_to '経歴', history_top_page_index_path, class:"header-btn" %></li>
+    <li><%= link_to '制作物', product_top_page_index_path, class:"header-btn" %></li>
    </ul>
   </div>
  </header>

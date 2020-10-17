@@ -17,13 +17,13 @@
   margin-left: 5vw;
 }
 .lists{
-  background-color: red;
   display: flex;
   margin-left: 60vw;
 }
 .header-btn{
   text-decoration: none;
   margin-right: 3vw;
+  color: black;
   font-weight: bold;
 }
 
