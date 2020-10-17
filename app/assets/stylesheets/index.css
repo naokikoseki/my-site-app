@@ -1,0 +1,40 @@
+.top-page{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/app/assets/images/my_site_main.jpeg");
+  background-size: contain;
+}
+
+/* ヘッダー部分 */
+.top-page-header{
+  display: flex;
+  align-items: center;
+  background-color: chartreuse;
+  height: 10vh;
+}
+.title{
+  background-color: blue;
+  margin-left: 5vw;
+}
+.lists{
+  background-color: red;
+  display: flex;
+  margin-left: 60vw;
+}
+.header-btn{
+  text-decoration: none;
+  margin-right: 3vw;
+  font-weight: bold;
+}
+
+/* ここからメイン */
+.top-main{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.main-message{
+  margin-left: 20vw;
+  font-size: 40px;
+}
