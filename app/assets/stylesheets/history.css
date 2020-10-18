@@ -1,0 +1,35 @@
+.history{
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  height: 100vh;
+  width: 100vw;
+  background-image: url("sample12.jpeg");
+  background-size: 100vw, 100vh;
+  animation-name:     my-fade-in;
+  animation-duration: 1s;
+}
+
+.history-main{
+  font-family: 'Noto Serif JP', sans-serif;
+  height: 80vh;
+  margin-top: 5vh;
+  display: flex;
+}
+.history-contents{
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 10vw;
+}
+.histrory-content{
+  margin-top: 5vh;
+  font-size: 20px;
+  animation-name:     my-fade-in;
+  animation-duration: 5s;
+}
+.my-img{
+  height: 40vh;
+  width: 17vw;
+  border: solid 1px black;
+  margin: 10vh 0 0 15vw;
+}
