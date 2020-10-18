@@ -1,0 +1,13 @@
+.products{
+  background-image: url("sample2.jpeg");
+  background-size: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.img{
+  height: 9vh;
+  width: 9vw;
+}
