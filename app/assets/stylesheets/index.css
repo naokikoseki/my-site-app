@@ -2,7 +2,7 @@
   font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   height: 100vh;
   width: 100vw;
-  background-image: url("sample2.jpg");
+  background-image: url("sample6.jpg");
   background-size: 100vw, 100vh;
   animation-name:     my-fade-in;
   animation-duration: 2s;
@@ -25,10 +25,13 @@
   width: 100vw;
 }
 .title{
+  width: 13vw;
   margin-left: 4vw;
   font-weight: bolder;
   color: black;
   font-size: 25px;
+  border-bottom: solid 4px rgba(76, 175, 80, 0.6);        /* 線指定 */
+  border-radius: 0px 0px 180px 200px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 .lists{
   display: flex;
@@ -38,7 +41,29 @@
   margin-right: 3vw;
   color: black;
   font-weight: bold;
+  position: relative;
+  padding-left: 25px;
 }
+.header-btn:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(119, 195, 223);
+}
+.header-btn:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 10px;
+  width: 100%;
+  border-bottom: solid 3px rgb(119, 195, 223);
+}
+
 .lists .header-btn:hover{
   color: rgb(84, 84, 84);
 }
@@ -54,5 +79,8 @@
 .main-message{
   margin-left: 12vw;
   font-size: 40px;
-  color: white;
+  position: relative;
+  color: #ffffff;
+  line-height: 1.4;
+  -webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
 }

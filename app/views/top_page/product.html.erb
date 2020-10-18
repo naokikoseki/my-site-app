@@ -2,15 +2,15 @@
  <%= render 'header' %>
 
  <div class="products-main">
+  <div class="products-main-title"><p>○ポートフォリオ</p></div>
   <ul class="main-contents">
    <li class="product">
     <%= image_tag "product1.png", class:"img" %>
-    <p>今ご覧のWebサイト</p>
+    <div class="product-title"><p>今ご覧のWebサイト</p></div>
    </li>
    <li class="product">
     <%= image_tag "product2.png", class:"img" %>
-    <p><%= link_to '詳細はこちらをクリック', 'http://54.199.89.104/', target:"_blank", class:"product-url" %></p>
-    <p>オリジナルWebアプリケーション</p>
+    <div><%= link_to 'オリジナルWebアプリケーション', 'http://54.199.89.104/', target:"_blank", class:"product-title" %></div>
    </li>
   </ul>
  </div>
