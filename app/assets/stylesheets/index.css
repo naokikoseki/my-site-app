@@ -1,40 +1,45 @@
 .top-page{
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   height: 100vh;
   width: 100vw;
-  background-image: url("/app/assets/images/my_site_main.jpeg");
-  background-size: contain;
+  background-image: url("sample9.jpeg");
+  background-size: 100vw, 100vh;
 }
 
 /* ヘッダー部分 */
 .top-page-header{
   display: flex;
   align-items: center;
-  background-color: chartreuse;
-  height: 10vh;
+  justify-content: space-between;
+  height: 15vh;
+  width: 100vw;
 }
 .title{
-  background-color: blue;
-  margin-left: 5vw;
+  margin-left: 4vw;
+  font-weight: bolder;
+  color: black;
+  font-size: 25px;
 }
 .lists{
-  background-color: red;
   display: flex;
-  margin-left: 60vw;
 }
 .header-btn{
   text-decoration: none;
   margin-right: 3vw;
+  color: black;
   font-weight: bold;
 }
 
 /* ここからメイン */
 .top-main{
-  height: 90vh;
+  height: 85vh;
   width: 100vw;
   display: flex;
   align-items: center;
+  overflow-y: scroll;
 }
 .main-message{
-  margin-left: 20vw;
+  margin-left: 12vw;
   font-size: 40px;
+  color: white;
 }

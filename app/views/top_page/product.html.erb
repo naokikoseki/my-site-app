@@ -1,0 +1,17 @@
+<div class="products">
+ <%= render 'header' %>
+
+ <div class="products-main">
+  <ul class="main-contents">
+   <li class="product">
+    <%= image_tag "product1.png", class:"img" %>
+    <p>今ご覧のWebサイト</p>
+   </li>
+   <li class="product">
+    <%= image_tag "product2.png", class:"img" %>
+    <p><%= link_to '詳細はこちらをクリック', 'http://54.199.89.104/', target:"_blank", class:"product-url" %></p>
+    <p>オリジナルWebアプリケーション</p>
+   </li>
+  </ul>
+ </div>
+</div>
