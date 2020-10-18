@@ -54,6 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'mysql2', '0.5.3'
 group :production do
-  gem 'rails_12factor'
+  #gem 'rails_12factor'
+  gem 'unicorn', '5.4.1'
 end
 gem "aws-sdk-s3", require: false
