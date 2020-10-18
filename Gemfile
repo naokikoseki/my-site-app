@@ -56,3 +56,4 @@ gem 'mysql2', '0.5.3'
 group :production do
   gem 'rails_12factor'
 end
+gem "aws-sdk-s3", require: false
